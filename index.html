@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!section one>
+    <section class="header">
+      <nav>
+        <a href="index.html"> <img src="images/logo3.png"></a>
+        <div class="navlinks" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+        <div class="text-box">
+          <h2>World's Best University</h2>
+          <p>There are a thousand programs offered at the Ahmad's University. <br> Choose what you want to study!</p>
+          <a href="programs.html" class="btn">Programs</a>
+        </div>
+    </section>
+<!section two : courses>
+<section class="courses">
+  <h1>These are the courses offered</h1>
+  <p>There are over 50000 university or college courses to choose from. Learn how to search, find and choose your perfect course through UCAS.</p>
+  <div class="row">
+    <div class="col">
+      <h3>Undergraduate Degree</h3>
+      <p>Undergraduate education is education conducted after secondary education and prior to postgraduate education. It typically includes all postsecondary programs up to the level of a bachelor's degree.</p>
+    </div>
+    <div class="col">
+      <h3>Masters Degree</h3>
+      <p>A Masters degree is a postgraduate degree, and in many countries it is divided into Master of Arts (MA) and Master of Science (MSc).</p>
+    </div>
+    <div class="col">
+      <h3>PHD</h3>
+      <p>A Doctor of Philosophy is the most common degree at the highest academic level awarded following a course of study.</p>
+    </div>
+  </div>
+</section>
+<!section three: campuses>
+<section class="campus">
+  <h1>Our Campuses</h1>
+  <p>You can study at our three global campuses: London,Washington DC and Berlin</p>
+    <div class="row">
+      <div class="campus-col">
+          <img src="images/london.png">
+          <div class="layer">
+            <h3>London</h3>
+          </div>
+      </div>
+      <div class="campus-col">
+          <img src="images/newyork.png">
+          <div class="layer">
+            <h3>Washington DC</h3>
+          </div>
+      </div>
+      <div class="campus-col">
+          <img src="images/washington.png">
+          <div class="layer">
+            <h3>Berlin</h3>
+          </div>
+      </div>
+      </div>
+</section>
+<!section four facilities: homework>
+
+
+<!section five: reviews>
+<section class="reviews">
+  <h1>What Our Students Have To Say</h1>
+  <p>You can study at our three global campuses: London,Washington DC and Berlin</p>
+    <div class="row">
+      <div class="testimonial">
+        <img src="images/user1.jpg">
+          <div class="">
+            <p>A customer review is a review of a product or service made by a customer who has purchased and used, or had experience with</p>
+            <h3>Urvah Nasanchori</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+      </div>
+      <div class="testimonial">
+        <img src="images/user2.jpg">
+          <div class="">
+            <p>A customer review is a review of a product or service made by a customer who has purchased and used, or had experience with</p>
+            <h3>Kamran Accesskey</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+      </div>
+    </div>
+<!section six: cta>
+  <section class="cta">
+    <h1>Call Us to Enroll</h1>
+    <a href="#" class="btn">Contact Here</a>
+  </section>
+  <!footer section seven>
+  <section class="footer">
+    <h4>About the business</h4>
+    <p>A customer review is a review of a product or service made by a customer who has </p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <p>Made with @Ahmadstudio</p>
+    </div>
+  </section>
+</section>
+<!Javascript created by ME!>
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0px";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+    </script>
+  </body>
+</html>
